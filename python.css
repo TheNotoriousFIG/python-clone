@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: hsl(211, 74%, 26%);
+}
+
+.header-bar {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 400px;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+#donate-but {
+    width: 80px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 18px;
+    border-radius: 10px;
+}
+
+#submit {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    border-radius: 5px;
+    background-color: rgb(42, 100, 224);
+    color: aliceblue;
+}
+
+#search {
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.search-con {
+    background-color: rgb(0, 12, 37);
+    height: 75px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.navbar {
+    background-color: hsla(202, 88%, 35%, 0.781);
+    width: 1180px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 21px;
+    left: 130px;
+    border-right: solid rgba(0, 27, 102, 0.295) 0.5px;
+}
+
+.navbar a:hover {
+    background-color: rgb(3, 42, 65);
+}
+
+.description {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.description p {
+    color: rgb(224, 204, 19);
+    font-size: 23px;
+    position: relative;
+    left: 120px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    position: relative;
+    left: 200px;
+    z-index: 10;
+}
+
+#sub-cap {
+    font-size: small;
+    color: aliceblue;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+section div {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 575px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    border-top: solid 5px rgb(91, 195, 243);
+
+}
+
+section {
+    background-color: aliceblue;
+    position: relative;
+    right: 30px;
+    bottom: 50px;
+    height: 300px;
+    width: 1600px;
+    display: inline-block;
+}
+
+p.sub-cap-two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+    border-bottom: solid 2px rgb(221, 217, 217);
+}
+
+span.subspan {
+    margin-left: 320px;
+    font-size: medium;
+    color: darkgray;
+}
+
+p.date-with-news {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 2px rgb(221, 217, 217);
+}
+
+span.newscap {
+    margin-left: 60px;
+    color: rgb(0, 132, 255);
+    font-size: large;
+
+}
+
+
+
+p.usedforcap {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 2px rgb(221, 217, 217);
+
+
+}
+
+span.usedcap {
+    background-color: rgb(226, 221, 221);
+    font-weight: normal;
+}
+
+div.usefor {
+    margin-top: 0px;
+
+    position: relative;
+    bottom: 10px;
+
+}
